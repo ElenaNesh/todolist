@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-self: center;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    list-style-type: none;
+}
+
+.task-done {
+    text-decoration: line-through;
+    background-color: green;
+}
+
